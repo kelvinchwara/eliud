@@ -35,11 +35,11 @@ const Footer = () => {
             <h3 className="text-lg font-semibold mb-3">Quick Links</h3>
             <ul className="space-y-1 text-sm">
               {[
-                { name: 'About', href: '/about' },
-                { name: 'Experience', href: '/experience' },
-                { name: 'Skills', href: '/skills' },
-                { name: 'Education', href: '/education' },
-                { name: 'Contact', href: '/contact' }
+                { name: 'About', href: '#about' },
+                { name: 'Experience', href: '#experience' },
+                { name: 'Skills', href: '#skills' },
+                { name: 'Education', href: '#education' },
+                { name: 'Contact', href: '#contact' }
               ].map((link) => (
                 <li key={link.name}>
                   <a 

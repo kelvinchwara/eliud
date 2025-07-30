@@ -69,7 +69,7 @@ const Skills = () => {
         'Open Minded, Reflective, Planning and Organisational Skills',
         'Adaptability and Resilience Skills'
       ],
-      color: 'bg-red-100 text-red-700'
+      color: 'bg-gray-100 text-gray-700'
     },
     {
       icon: BookOpen,
