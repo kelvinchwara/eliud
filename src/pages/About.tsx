@@ -46,12 +46,14 @@ const About = () => {
                 with character development and practical skills.
               </p>
               <div className="flex flex-wrap gap-4">
-                <Button 
-                  className="text-white hover:opacity-90 transition-opacity"
-                  style={{ backgroundColor: '#A37B5C' }}
-                >
-                  Read more
-                </Button>
+                <a href="https://soma-school.onrender.com/" target="_blank" rel="noopener noreferrer">
+                  <Button 
+                    className="text-white hover:opacity-90 transition-opacity"
+                    style={{ backgroundColor: '#A37B5C' }}
+                  >
+                    Read more
+                  </Button>
+                </a>
                 <Button 
                   variant="outline" 
                   className="flex items-center gap-2 border-2 hover:bg-opacity-10"
