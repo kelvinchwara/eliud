@@ -119,6 +119,62 @@ const Contact = () => {
               </div>
             </Card>
           </div>
++          {/* Conversation Section */}
++          <div className="bg-gray-50 p-8 rounded-lg shadow-md">
++            <h3 className="text-2xl font-semibold text-gray-900 mb-4">Ready to start a conversation?</h3>
++            <p className="text-gray-700 mb-6">
++              Whether you're looking for collaboration, consultation, or just want to connect, I'd love to hear from you.
++            </p>
++            <div className="flex flex-wrap gap-4">
++              <a
++                href="https://wa.me/254720059892"
++                target="_blank"
++                rel="noopener noreferrer"
++                className="inline-block bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 transition-colors"
++              >
++                Start a Conversation
++              </a>
++              <a
++                href="mailto:mautiaeliud@gmail.com"
++                className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition-colors"
++              >
++                Schedule a Meeting
++              </a>
++            </div>
++          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
+         {/* Conversation Section */}
++          <div className="bg-gray-50 p-8 rounded-lg shadow-md">
+          <h3 className="text-2xl font-semibold text-gray-900 mb-4">Ready to start a conversation?</h3>
++            <p className="text-gray-700 mb-6">
++              Whether you're looking for collaboration, consultation, or just want to connect, I'd love to hear from you.
++            </p>
++            <div className="flex flex-wrap gap-4">
++              <a
++                href="https://wa.me/254720059892"
++                target="_blank"
++                rel="noopener noreferrer"
++                className="inline-block bg-green-500 text-white px-6 py-3 rounded hover:bg-green-600 transition-colors"
++              >
++                Start a Conversation
++              </a>
++              <a
++                href="mailto:mautiaeliud@gmail.com"
++                className="inline-block bg-blue-600 text-white px-6 py-3 rounded hover:bg-blue-700 transition-colors"
++              >
++                Schedule a Meeting
++              </a>
++            </div>
++          </div>
+        </div>
+      </div>
+    </section>
+  );
+};
 
           {/* References */}
           <div>

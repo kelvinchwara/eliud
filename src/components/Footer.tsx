@@ -29,6 +29,7 @@ const Footer = () => {
                 <Mail className="h-4 w-4" />
               </a>
             </div>
+          
           </div>
 
           {/* Quick Links */}

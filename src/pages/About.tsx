@@ -54,14 +54,15 @@ const About = () => {
                     Read more
                   </Button>
                 </a>
-                <Button 
-                  variant="outline" 
-                  className="flex items-center gap-2 border-2 hover:bg-opacity-10"
+                <a
+                  href="/MAUTIA%20ELIUD%20RESUME.pdf"
+                  download
+                  className="flex items-center gap-2 border-2 border-[#5E4A35] text-[#5E4A35] hover:bg-opacity-10 px-3 py-1 rounded inline-flex"
                   style={{ borderColor: '#5E4A35', color: '#5E4A35' }}
                 >
                   <Download className="h-4 w-4" />
                   Download My Resume
-                </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

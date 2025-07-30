@@ -117,21 +117,23 @@ const Experience = () => {
                 Explore my complete work history and achievements in mathematics education.
               </p>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button 
-                  className="text-white hover:opacity-90 transition-opacity flex items-center gap-2"
+                <a
+                  href="/MAUTIA%20ELIUD%20RESUME.pdf"
+                  download
+                  className="text-white hover:opacity-90 transition-opacity flex items-center gap-2 px-3 py-1 rounded inline-flex"
                   style={{ backgroundColor: '#A37B5C' }}
                 >
                   <Download className="h-4 w-4" />
                   Download Full CV
-                </Button>
-                <Button 
-                  variant="outline" 
-                  className="flex items-center gap-2 border-2 hover:bg-opacity-10"
+                </a>
+                <a
+                  href="/contact"
+                  className="flex items-center gap-2 border-2 border-[#5E4A35] hover:bg-opacity-10 px-3 py-1 rounded inline-flex"
                   style={{ borderColor: '#5E4A35', color: '#5E4A35' }}
                 >
                   <ExternalLink className="h-4 w-4" />
                   View References
-                </Button>
+                </a>
               </div>
             </CardContent>
           </Card>

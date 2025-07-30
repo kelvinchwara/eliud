@@ -175,13 +175,15 @@ const Skills = () => {
                 Ready to explore my full professional profile?
               </h3>
               <div className="flex flex-wrap justify-center gap-4">
-                <Button 
-                  className="text-white hover:opacity-90 transition-opacity flex items-center gap-2"
+                <a
+                  href="/MAUTIA%20ELIUD%20RESUME.pdf"
+                  download
+                  className="text-white hover:opacity-90 transition-opacity flex items-center gap-2 px-3 py-1 rounded inline-flex"
                   style={{ backgroundColor: '#A37B5C' }}
                 >
                   <Download className="h-4 w-4" />
                   Download Resume
-                </Button>
+                </a>
                 <Button 
                   variant="outline" 
                   className="flex items-center gap-2 border-2 hover:bg-opacity-10"
