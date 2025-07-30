@@ -127,7 +127,7 @@ const Experience = () => {
                   Download Full CV
                 </a>
                 <a
-                  href="/contact"
+                  href="#contact"
                   className="flex items-center gap-2 border-2 border-[#5E4A35] hover:bg-opacity-10 px-3 py-1 rounded inline-flex"
                   style={{ borderColor: '#5E4A35', color: '#5E4A35' }}
                 >
